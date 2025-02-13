@@ -10,8 +10,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var id int 
-
 // deleteCmd represents the delete command
 var deleteCmd = &cobra.Command{
 	Use:   "delete",
