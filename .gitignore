@@ -1,0 +1,29 @@
+# Binarios de compilación
+*.exe
+*.out
+*.o
+
+# Archivos de caché y temporales
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Dependencias de Go
+bin/
+pkg/
+vendor/
+
+# Archivos de configuración del entorno
+.env
+.env.local
+
+# Archivos de bases de datos SQLite
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Archivos de editor y sistema
+.vscode/
+.idea/
+.DS_Store
